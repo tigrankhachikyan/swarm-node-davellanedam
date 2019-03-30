@@ -5,7 +5,7 @@ COPY . /usr/src/api/
 
 ENV NODE_ENV=$node_env
 
-WORKDIR /usr/src/api/node-express-mongodb-jwt-rest-api-skeleton
+WORKDIR /usr/src/api/
 
 RUN npm install
 
