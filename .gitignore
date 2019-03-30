@@ -1,0 +1,5 @@
+.vscode
+testing-project
+docker-stack.yml
+
+db/
