@@ -6,6 +6,8 @@ COPY . /usr/src/api/
 ENV NODE_ENV=$node_env
 
 WORKDIR /usr/src/api/
+RUN npm install pm2 -g \
+    && npm install nodemon -g
 
 RUN npm install
 
